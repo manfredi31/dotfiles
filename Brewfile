@@ -11,16 +11,11 @@ brew "ruby"
 brew "poetry"
 brew "uv"                # Fast Python package installer
 brew "zig@0.14"
-
-# DevOps & Cloud
 brew "docker"
 brew "docker-completion"
 brew "supabase"
 brew "granted"           # AWS credential helper
-
-# Shell
 brew "fish"             
-
 # CLI Tools
 brew "fzf"               # Fuzzy finder
 brew "glow"              # Markdown renderer
