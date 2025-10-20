@@ -15,7 +15,9 @@ brew "docker"
 brew "docker-completion"
 brew "supabase"
 brew "granted"           # AWS credential helper
-brew "fish"             
+brew "fish"
+brew "starship"          # Cross-shell prompt
+
 # CLI Tools
 brew "fzf"               # Fuzzy finder
 brew "glow"              # Markdown renderer

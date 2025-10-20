@@ -13,3 +13,5 @@ end
 alias ll='ls -la'
 alias g='git'
 
+# Initialize Starship prompt
+starship init fish | source
