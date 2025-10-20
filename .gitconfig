@@ -1,0 +1,14 @@
+[user]
+  name = Manfredi Bernardi
+	email = manfredi.bernardi3108@gmail.com
+
+[includeIf "hasconfig:remote.*.url:git@github.com:alan-eu/*"]
+  path = ~/.gitconfig-alan
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[core]
+	editor = vim
+	sshCommand = /usr/bin/ssh
