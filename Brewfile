@@ -1,7 +1,3 @@
-# Brewfile - Homebrew package list
-# Install all packages with: brew bundle
-
-# Taps
 tap "homebrew/bundle"
 
 # Development Tools
@@ -23,27 +19,46 @@ brew "supabase"
 brew "granted"           # AWS credential helper
 
 # Shell
-brew "fish"              # Friendly interactive shell
+brew "fish"             
 
 # CLI Tools
 brew "fzf"               # Fuzzy finder
 brew "glow"              # Markdown renderer
-brew "tldr"              # Simplified man pages
+brew "tldr"              
 brew "pandoc"            # Document converter
 brew "go-task"           # Task runner
 brew "yt-dlp"            # Video downloader
-brew "trash"             # Safe file deletion (moves to Trash)
-
-# Databases
+brew "trash"             
 brew "postgresql@17"
 
-# Build Tools
 brew "ffmpeg"
 brew "cocoapods"
 
-# Cask Applications
-# Add GUI apps you use, for example:
-# cask "visual-studio-code"
-# cask "iterm2"
-# cask "slack"
-# cask "chrome"
+
+cask "1password"
+cask "arc"
+cask "claude"
+cask "cursor"
+cask "dbeaver-community"
+cask "discord"
+cask "docker"
+cask "figma"
+cask "iterm2"
+cask "loom"
+cask "microsoft-word"
+cask "notion"
+cask "notion-calendar"
+cask "obs"
+cask "obsidian"
+cask "pgadmin4"
+cask "raycast"
+cask "slack"
+cask "spotify"
+cask "todoist"
+cask "xcode"
+
+# Not available via Homebrew:
+# ChatGPT
+# Cold Turkey Blocker
+# Wispr Flow
+# TextExpander
