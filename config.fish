@@ -13,5 +13,8 @@ end
 alias ll='ls -la'
 alias g='git'
 
+# Initialize direnv
+direnv hook fish | source
+
 # Initialize Starship prompt
 starship init fish | source
