@@ -1,3 +1,6 @@
+# Disable fish greeting
+set -g fish_greeting
+
 # Add Homebrew to PATH
 eval (/opt/homebrew/bin/brew shellenv)
 
