@@ -20,12 +20,13 @@ brew "starship"          # Cross-shell prompt
 
 # CLI Tools
 brew "fzf"               # Fuzzy finder
+brew "lazygit"           # Terminal UI for git
 brew "glow"              # Markdown renderer
-brew "tldr"              
+brew "tldr"
 brew "pandoc"            # Document converter
 brew "go-task"           # Task runner
 brew "yt-dlp"            # Video downloader
-brew "trash"             
+brew "trash"
 brew "postgresql@17"
 
 brew "ffmpeg"
