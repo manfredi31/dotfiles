@@ -1,0 +1,7 @@
+{
+    "window.commandCenter": true,
+    "workbench.colorTheme": "Default Dark Modern",
+    "workbench.preferredHighContrastLightColorTheme": "Tomorrow Night Blue",
+    "workbench.preferredLightColorTheme": "Cursor Dark High Contrast",
+    "workbench.iconTheme": "vs-minimal"
+}

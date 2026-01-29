@@ -1,0 +1,48 @@
+[
+    {
+      "key": "[BracketLeft]",
+      "command": "type",
+      "args": { "text": "[" },
+      "when": "editorTextFocus"
+    },
+    {
+      "key": "[BracketRight]",
+      "command": "type",
+      "args": { "text": "]" },
+      "when": "editorTextFocus"
+    },
+    {
+      "key": "shift+[BracketLeft]",
+      "command": "type",
+      "args": { "text": "{" },
+      "when": "editorTextFocus"
+    },
+    {
+      "key": "shift+[BracketRight]",
+      "command": "type",
+      "args": { "text": "}" },
+      "when": "editorTextFocus"
+    },
+    {
+      "key": "shift+[Quote]",
+      "command": "type",
+      "args": { "text": "<" },
+      "when": "editorTextFocus"
+    },
+    {
+      "key": "shift+[Backslash]",
+      "command": "type",
+      "args": { "text": ">" },
+      "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+i",
+        "command": "composerMode.agent"
+    }
+    {
+        "key": "^",
+    }
+ ]
+
+
+ 

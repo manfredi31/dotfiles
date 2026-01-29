@@ -48,6 +48,14 @@ vim +PlugInstall +qall 2>/dev/null || true
 # iTerm2 - import preferences
 plutil -convert binary1 -o ~/Library/Preferences/com.googlecode.iterm2.plist "${BASEDIR}/config/iterm2.plist"
 
+# Cursor
+CURSOR_DIR="$HOME/Library/Application Support/Cursor/User"
+mkdir -p "${CURSOR_DIR}"
+/bin/rm -f "${CURSOR_DIR}/keybindings.json"
+ln -sf "${BASEDIR}/config/cursor/keybindings.json" "${CURSOR_DIR}/keybindings.json"
+/bin/rm -f "${CURSOR_DIR}/settings.json"
+ln -sf "${BASEDIR}/config/cursor/settings.json" "${CURSOR_DIR}/settings.json"
+
 # Raycast - import settings manually:
 #   Raycast > Settings > Advanced > Import
 #   See raycast.txt for extensions and hotkeys
