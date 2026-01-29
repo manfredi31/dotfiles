@@ -1,0 +1,15 @@
+# Starship Configuration - Minimal
+
+# Show only directory and git branch
+format = "$directory$git_branch$character"
+
+[directory]
+style = "bold cyan"
+
+[git_branch]
+format = " [$branch]($style) "
+style = "bold purple"
+
+[character]
+
+error_symbol = "[❯](bold red)"

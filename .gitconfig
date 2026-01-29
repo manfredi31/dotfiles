@@ -2,8 +2,6 @@
   name = Manfredi Bernardi
 	email = manfredi.bernardi3108@gmail.com
 
-[includeIf "hasconfig:remote.*.url:git@github.com:alan-eu/*"]
-  path = ~/.gitconfig-alan
 [filter "lfs"]
 	process = git-lfs filter-process
 	required = true

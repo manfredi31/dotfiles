@@ -1,23 +1,12 @@
-# Disable fish greeting
+starship init fish | source
 set -g fish_greeting
-
-# Add Homebrew to PATH
 eval (/opt/homebrew/bin/brew shellenv)
-
-# Set default editor
 set -gx EDITOR vim
 
-# Replace rm with trash 
-function rm
-    trash $argv
+if status is-interactive
+# Commands to run in interactive sessions can go here
 end
+export PATH="$HOME/.local/bin:$PATH"
 
-# Aliases
-alias ll='ls -la'
-alias g='git'
-
-# Initialize direnv
-direnv hook fish | source
-
-# Initialize Starship prompt
-starship init fish | source
+# opencode
+fish_add_path /Users/manfredibernardi/.opencode/bin

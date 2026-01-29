@@ -1,0 +1,19 @@
+Raycast Extensions & Hotkeys
+=============================
+Import via: Raycast > Settings > Advanced > Export/Import
+
+Window Management
+- Almost Maximize: Option X
+- Left Half: Option ,
+- Make Larger: Option +
+- Make Smaller: Option -
+- Maximize: Option F
+- Right Half: Option .
+
+Applications
+- ChatGPT Atlas: Option A
+- Notes: Option Q
+- Notion Calendar: Option C
+- Obsidian: Option O
+
+Clipboard History: Option V

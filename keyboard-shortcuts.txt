@@ -1,0 +1,19 @@
+macOS Keyboard Shortcuts
+========================
+Set via: System Settings > Keyboard > Keyboard Shortcuts > App Shortcuts
+
+All Applications
+- Show Help menu: ⇧⌘/
+- Show "Ask ChatGPT" Sidebar: ⌘I
+
+ChatGPT Atlas
+- Hide Tabs: ⌘S
+- Show Web Chat Sidebar: ⌘I
+- Show Tabs: ⌘S
+
+Notes
+- Bulleted List: ⇧⌘8
+- Duplicate Note: ⇧⌘D
+- Heading: ⌥⌘1
+- Checklist: ⇧⌘L
+- Subheading: ⌥⌘2
