@@ -1,0 +1,5 @@
+Host myvps 46.225.13.64
+  HostName 46.225.13.64
+  ServerAliveInterval 30
+  ServerAliveCountMax 6
+  TCPKeepAlive yes

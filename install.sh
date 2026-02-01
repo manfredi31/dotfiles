@@ -30,6 +30,11 @@ ln -sf "${BASEDIR}/config/fish/conf.d/fish_frozen_theme.fish" ~/.config/fish/con
 /bin/rm -f ~/.config/starship.toml
 ln -sf "${BASEDIR}/config/starship.toml" ~/.config/starship.toml
 
+# SSH
+mkdir -p ~/.ssh
+/bin/rm -f ~/.ssh/config
+ln -sf "${BASEDIR}/ssh_config" ~/.ssh/config
+
 # Git
 /bin/rm -f ~/.gitconfig
 ln -sf "${BASEDIR}/.gitconfig" ~/.gitconfig
